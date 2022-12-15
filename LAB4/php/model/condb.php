@@ -1,5 +1,5 @@
 <?php
-$host = "db"; #db service from docker-compose
+$host = "db";  //db service from docker-compose
 $user = "root";
 $pass = "1234";
 $db = "db_student";
@@ -11,4 +11,3 @@ try{
     echo "An error is " . $e . " :: " . mysqli_error($link);
 }
 
-?>
